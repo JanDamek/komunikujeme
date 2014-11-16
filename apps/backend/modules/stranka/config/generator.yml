@@ -1,0 +1,56 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           stranka
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          stranka
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name:
+          label: Název článku
+        kategorie_id: 
+          label: Patří do kategorie
+        gallery_id: 
+          label: Fotogalerie k článku
+        cs_title: 
+          label: Český název článku
+        cs_keywords:
+          label: Klíčová slova pro vyhledávače
+        cs_description:
+          label: Popis stránky pro vyhledavače
+        cs_perex: 
+          lable: Krátký popis článku
+        cs_text:
+          label: Text článku
+        en_title:
+          label: Anglický název článku
+        en_keywords:
+          label: Klíčová slova pro vyhledávače
+        en_description:
+          label: Popis stránky pro vyhledavače
+        en_perex: 
+          lable: Krátký popis článku
+        en_text: 
+          label: Text článku
+      list:    
+        display: [=name, cs_title, en_title, Kategorie]
+      filter:  ~
+      form:    ~
+      edit:    
+        display: 
+          "Základní data": [name, kategorie_id, gallery_id]
+          "Česky": [cs_title, cs_perex, cs_text, cs_description, cs_keywords]
+          Anglicky: [en_title, en_perex, en_text, en_description, en_keywords]
+      new:     
+        display: 
+          "Základní data": [name, kategorie_id, gallery_id]
+          "Česky": [cs_title, cs_perex, cs_text, cs_description, cs_keywords]
+          Anglicky: [en_title, en_perex, en_text, en_description, en_keywords]

@@ -1,0 +1,67 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           setting
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          setting
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        sitename:       
+          label: Název webu 
+        hp_stranka_id:  
+          label: Článek na homepage 
+        hp_dolni_id:    
+          label: Článek v patičce stránky 
+        footer_text:    
+          label: Text pod stránkou 
+        email:          
+          label: Email v kontaku 
+        tel:            
+          label: Telefon 
+        mobil:          
+          label: Mobil 
+        web_adr:        
+          label: Webová adresa 
+        ga_code:        
+          label: Google analytics kód 
+        google_overeni: 
+          label: Ověření webu pro google web master tools 
+          help: Kód pro ověření majitele webové stránky. Odblokování přístupu k administraci tohoto webu pro google.
+        cs_slogan:      
+          label: Slogan 
+        cs_pracovni_doba: 
+          label: Pracovní doba 
+        cs_ulice:       
+          label: Ulice 
+        cs_mesto:       
+          label: Město 
+        en_slogan:      
+          label: Slogan 
+        en_pracovni_doba: 
+          label: Pracovní doba 
+        en_ulice:       
+          label: Ulice 
+        en_mesto:       
+          label: Město 
+      list:    
+        display: [=sitename]
+      filter:  ~
+      form:    ~
+      edit:    
+        display: 
+          "Základní data": [sitename,hp_stranka_id,hp_dolni_id,footer_text,email,tel,mobil,web_adr,ga_code,google_overeni]
+          "Česky": [cs_slogan,cs_pracovni_doba,cs_ulice,cs_mesto]
+          Anglicky: [en_slogan,en_pracovni_doba,en_ulice,en_mesto]
+      new:     
+        display: 
+          "Základní data": [sitename,hp_stranka_id,hp_dolni_id,footer_text,email,tel,mobil,web_adr,ga_code,google_overeni]
+          "Česky": [cs_slogan,cs_pracovni_doba,cs_ulice,cs_mesto]
+          Anglicky: [en_slogan,en_pracovni_doba,en_ulice,en_mesto]

@@ -1,0 +1,42 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Kategorie
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          kategorie
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        name: 
+          label: Název kategori
+        kategorie_id:
+          label: Nadřazená kategorie
+        cs_title: 
+          label: Název kategorie pro českou verzi
+        cs_description: 
+          label: Popis stránky pro vyhledavače
+        cs_keywords: 
+          label: Klíčová slova pro vyhledávače
+        en_title: 
+          label: Název kategorie pro angličtinu
+        en_description: 
+          label: Popis stránky pro vyhledavače
+        en_keywords: 
+          label: Klíčová slova pro vyhledávače
+      list:    
+        display: [=name, cs_title, en_title, Kategorie]
+      filter:  ~
+      form:    ~
+      edit:    
+        display: 
+          "Základní data": [name, kategorie_id]
+          "Česky": [cs_title,cs_description,cs_keywords]
+          Anglicky: [en_title,en_description,en_keywords]
+      new:     ~

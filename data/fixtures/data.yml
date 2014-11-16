@@ -1,0 +1,325 @@
+Setting:
+  Setting_1:
+    sitename: 'Komunikujeme o.s.'
+    Stranka: Stranka_1
+    Dolni: Stranka_2
+    footer_text: 'Copyright (c) 2012 Komunikujeme o.s. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>.'
+    cs_slogan: 'Template design by Free CSS Templates'
+    cs_pracovni_doba: ''
+    email: ''
+    tel: ''
+    mobil: ''
+    web_adr: ''
+    ga_code: ''
+    google_overeni: ''
+    created_at: '2012-09-28 12:27:05'
+    updated_at: '2012-09-29 09:59:51'
+Stranka:
+  Stranka_1:
+    name: homepage
+    Gallery: Gallery_1
+    created_at: '2012-09-28 21:21:07'
+    updated_at: '2012-09-28 21:21:07'
+    slug: homepage
+    cs_title: 'Domaci stranka'
+    cs_keywords: homepage
+    cs_description: homepage
+    cs_perex: null
+    cs_text: 'This is Big Business 2.0, a free and fully standards-compliant CSS website template by FCT. The pictures in this template are from Fotogrph. This free CSS template is released under a Creative Commons Attributions 3.0 liccsse, so you are pretty much free to do whatever you want with it (evcs use it commercially) provided you keep all the links in the footer intact. Aside from that, have fun with it :)'
+  Stranka_2:
+    name: Paticka
+    created_at: '2012-09-29 09:52:49'
+    updated_at: '2012-09-29 09:52:49'
+    slug: paticka
+    cs_title: 'Magnis hcsdrerit erat'
+    cs_keywords: patocka
+    cs_description: paticka
+    cs_perex: null
+    cs_text: 'Euismod sodales sociis hcsdrerit pulvinar acursus urna. Consectetur egestas sodales at ornare laoreet turpis. Lorem id sapics ridiculus sagittis imperdiet urna suspcsdisse. Posuere arcu parturicst quam risus. Aliquam nullam magnis integer gravida vulputate felis. Consectetur montes sollicitudin dictum. Auctor sociis hcsdrerit pulvinar acursus urna lorem ipsum dolor vivamus pulvinar libero. Massa egestas cubilia lacus augue mattis consectetur.'    
+  Stranka_3:
+    name: uvod
+    Kategorie: Kategorie_2
+    Gallery: Gallery_1
+    created_at: '2012-09-29 10:27:07'
+    updated_at: '2012-09-29 11:10:52'
+    slug: uvod
+  Stranka_4:
+    name: mez.projekty
+    Kategorie: Kategorie_23
+    created_at: '2012-09-29 10:34:53'
+    updated_at: '2012-09-29 10:34:53'
+    slug: projekty
+  Stranka_5:
+    name: 'Nas tym'
+    Kategorie: Kategorie_2
+    created_at: '2012-09-29 10:45:57'
+    updated_at: '2012-09-29 10:45:57'
+    slug: nas-tym
+GalleryImage:
+  GalleryImage_1:
+    Gallery: Gallery_1
+    is_active: false
+    path: /uploads//hp_gallery/slide01.jpg
+    alt: hp
+    title: hp
+    ord: null
+    created_at: '2012-09-28 21:17:39'
+    updated_at: '2012-09-28 21:17:39'
+  GalleryImage_2:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//hp_gallery/slide02.jpg
+    alt: hp
+    title: hp
+    ord: null
+    created_at: '2012-09-28 21:17:54'
+    updated_at: '2012-09-28 21:17:54'
+  GalleryImage_3:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//hp_gallery/slide03.jpg
+    alt: hp
+    title: hp
+    ord: null
+    created_at: '2012-09-28 21:18:09'
+    updated_at: '2012-09-28 21:18:09'
+  GalleryImage_4:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//hp_gallery/slide04.jpg
+    alt: hp
+    title: hp
+    ord: null
+    created_at: '2012-09-28 21:18:21'
+    updated_at: '2012-09-28 21:18:21'
+  GalleryImage_5:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//hp_gallery/slide05.jpg
+    alt: hp
+    title: hp
+    ord: null
+    created_at: '2012-09-28 21:18:35'
+    updated_at: '2012-09-28 21:18:35'
+  GalleryImage_6:
+    Gallery: Gallery_1
+    is_active: true
+    path: /uploads//hp_gallery/slide01.jpg
+    alt: hp
+    title: hp
+    ord: null
+    created_at: '2012-09-28 22:04:08'
+    updated_at: '2012-09-28 22:04:08'
+Gallery:
+  Gallery_1:
+    title: 'homepage galerie'
+    description: ''
+    path: /uploads//hp_gallery/slide01.jpg
+    is_active: false
+    created_at: '2012-09-28 21:17:38'
+    updated_at: '2012-09-28 21:17:38'
+    slug: homepage-galerie
+Kategorie:
+  Kategorie_1:
+    name: Uvod
+    cs_title: Uvod
+    created_at: '2012-09-28 14:01:20'
+    updated_at: '2012-09-28 14:02:46'
+    slug: uvod
+  Kategorie_2:
+    name: 'O nas'
+    Kategorie: Kategorie_1
+    cs_title: 'O nas'
+    created_at: '2012-09-28 14:01:38'
+    updated_at: '2012-09-28 14:01:38'
+    slug: o-nas
+  Kategorie_3:
+    name: Tým
+    Kategorie: Kategorie_1
+    cs_title: Tým
+    created_at: '2012-09-28 14:01:47'
+    updated_at: '2012-09-28 15:18:18'
+    slug: tym
+  Kategorie_4:
+    name: Kontakt
+    cs_title: Kontakt
+    Kategorie: Kategorie_1
+    created_at: '2012-09-28 14:01:56'
+    updated_at: '2012-09-28 15:18:30'
+    slug: kontakt
+  Kategorie_5:
+    name: Dotace
+    cs_title: Dotace
+    created_at: '2012-09-28 14:02:08'
+    updated_at: '2012-09-28 20:22:21'
+    slug: dotace-projektova-a-odborna-cinnost
+  Kategorie_6:
+    name: OPPA
+    Kategorie: Kategorie_5
+    cs_title: OPPA
+    created_at: '2012-09-28 14:02:17'
+    updated_at: '2012-09-28 14:02:17'
+    slug: oppa
+  Kategorie_7:
+    name: OPLZZ
+    cs_title: OPLZZ
+    Kategorie: Kategorie_5
+    created_at: '2012-09-28 19:30:52'
+    updated_at: '2012-09-28 19:30:52'
+    slug: oplzz
+  Kategorie_8:
+    name: OPVK
+    cs_title: OPVK
+    Kategorie: Kategorie_5
+    created_at: '2012-09-28 19:31:06'
+    updated_at: '2012-09-28 19:31:06'
+    slug: opvk
+  Kategorie_9:
+    name: 'Komunitární programy'
+    cs_title: 'Komunitární programy'
+    Kategorie: Kategorie_5
+    created_at: '2012-09-28 19:31:18'
+    updated_at: '2012-09-28 19:31:18'
+    slug: komunitarni-programy
+  Kategorie_10:
+    name: 'Další evropské dotace'
+    Kategorie: Kategorie_5
+    created_at: '2012-09-28 19:31:33'
+    updated_at: '2012-09-28 19:31:33'
+    slug: dalsi-evropske-dotace
+  Kategorie_11:
+    name: Poradcsství
+    cs_title: Poradcsství
+    created_at: '2012-09-28 20:12:40'
+    updated_at: '2012-09-28 20:21:10'
+    slug: poradcsstvi
+  Kategorie_12:
+    name: 'Kariérní poradcsství'
+    cs_title: 'Kariérní poradcsství'
+    Kategorie: Kategorie_11
+    created_at: '2012-09-28 20:12:55'
+    updated_at: '2012-09-28 20:12:55'
+    slug: karierni-poradcsstvi
+  Kategorie_13:
+    name: 'Osobní poradcsství'
+    cs_title: 'Osobní poradcsství'
+    Kategorie: Kategorie_11
+    created_at: '2012-09-28 20:13:06'
+    updated_at: '2012-09-28 20:13:06'
+    slug: osobnostni-poradcsstvi
+  Kategorie_14:
+    name: 'Profesní diagnostika'
+    cs_title: 'Profesní diagnostika'
+    Kategorie: Kategorie_11
+    created_at: '2012-09-28 20:13:16'
+    updated_at: '2012-09-29 11:05:12'
+    slug: profesni-diagnostika
+  Kategorie_15:
+    name: Vzdělávání
+    cs_title: Vzdělávání
+    created_at: '2012-09-28 20:13:27'
+    updated_at: '2012-09-28 20:21:27'
+    slug: vzdelavani
+  Kategorie_16:
+    name: 'Soft skills'
+    cs_title: 'Soft skills'
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:13:40'
+    updated_at: '2012-09-28 20:13:40'
+    slug: soft-skills
+  Kategorie_17:
+    name: 'Osobní rozvoj'
+    cs_title: 'Osobní rozvoj'
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:13:56'
+    updated_at: '2012-09-28 20:13:56'
+    slug: osobnostni-rozvoj
+  Kategorie_18:
+    name: 'Jak uspět u pracovního pohovoru'
+    cs_title: 'Jak uspět u pracovního pohovoru'
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:14:08'
+    updated_at: '2012-09-28 20:14:08'
+    slug: jak-uspet-u-pracovniho-pohovoru
+  Kategorie_19:
+    name: Image
+    cs_title: Image
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:14:18'
+    updated_at: '2012-09-28 20:14:18'
+    slug: image
+  Kategorie_20:
+    name: 'Komunikace se zákazníkem'
+    cs_title: 'Komunikace se zákazníkem'
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:14:29'
+    updated_at: '2012-09-28 20:14:29'
+    slug: komunikace-se-zakaznikem
+  Kategorie_21:
+    name: 'Základy podnikání'
+    cs_title: 'Základy podnikání'
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:14:41'
+    updated_at: '2012-09-28 20:14:41'
+    slug: zaklady-podnikani
+  Kategorie_22:
+    name: 'Managemcst ESF fondů'
+    cs_title: 'Managemcst ESF fondů'
+    Kategorie: Kategorie_15
+    created_at: '2012-09-28 20:14:50'
+    updated_at: '2012-09-28 20:14:50'
+    slug: managemcst-esf-fondu
+  Kategorie_23:
+    name: 'Mezinárodní projekty'
+    cs_title: 'Mezinárodní projekty'
+    created_at: '2012-09-28 20:15:13'
+    updated_at: '2012-09-28 20:20:23'
+    slug: mezinarodni-projekty
+  Kategorie_24:
+    name: 'Další aktivity'
+    cs_title: 'Další aktivity'
+    created_at: '2012-09-28 20:15:23'
+    updated_at: '2012-09-28 20:19:59'
+    slug: dalsi-aktivity
+  Kategorie_25:
+    name: 'Životní prostředí'
+    cs_title: 'Životní prostředí'
+    Kategorie: Kategorie_24
+    created_at: '2012-09-28 20:15:49'
+    updated_at: '2012-09-28 20:17:27'
+    slug: zivotni-prostredi
+  Kategorie_26:
+    name: 'Sociální, zdravotní a humanitární činnost'
+    cs_title: 'Sociální, zdravotní a humanitární činnost'
+    Kategorie: Kategorie_24
+    created_at: '2012-09-28 20:15:59'
+    updated_at: '2012-09-29 11:01:16'
+    slug: socialni-zdravotni-a-humanitarni-cinnost
+  Kategorie_27:
+    name: Kultura
+    cs_title: Kultura
+    Kategorie: Kategorie_24
+    created_at: '2012-09-28 20:16:09'
+    updated_at: '2012-09-28 20:17:48'
+    slug: kultura
+  Kategorie_28:
+    name: Sport
+    cs_title: Sport
+    Kategorie: Kategorie_24
+    created_at: '2012-09-28 20:16:19'
+    updated_at: '2012-09-28 20:17:58'
+    slug: sport
+  Kategorie_29:
+    name: 'Pracovní a sociální činnost'
+    cs_title: 'Pracovní a sociální činnost'
+    Kategorie: Kategorie_24
+    created_at: '2012-09-28 20:16:29'
+    updated_at: '2012-09-28 20:18:09'
+    slug: pracovni-a-socialni-cinnost
+  Kategorie_30:
+    name: 'Dobrovolnická činnost'
+    cs_title: 'Dobrovolnická činnost'
+    Kategorie: Kategorie_24
+    created_at: '2012-09-28 20:16:41'
+    updated_at: '2012-09-28 20:18:19'
+    slug: dobrovolnicka-cinnost

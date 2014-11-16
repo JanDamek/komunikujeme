@@ -1,0 +1,32 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /:sf_culture/
+  param: { module: homepage, action: index, sf_culture: cs }
+  
+clanek:
+  url: /:sf_culture/:kategorie/:clanek.html
+  param: { module: clanek, action: index, sf_culture: cs }
+  
+clanek2:
+  url: /:sf_culture/:kategorie/:podkategorie/:clanek.html
+  param: { module: clanek, action: index, sf_culture: cs }
+  
+kategorie:
+  url: /:sf_culture/:kategorie
+  param: { module: kategorie, action: index, sf_culture: cs }
+
+kategorie2:
+  url: /:sf_culture/:kategorie/:podkategorie
+  param: { module: kategorie, action: index, sf_culture: cs }
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+#
+#default:
+#  url:   /:module/:action/*

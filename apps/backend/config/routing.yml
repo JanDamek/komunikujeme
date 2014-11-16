@@ -1,0 +1,73 @@
+odkazy:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Odkazy
+    module:               odkazy
+    prefix_path:          /odkazy
+    column:               id
+    with_wildcard_routes: true
+
+kategorie:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Kategorie
+    module:               kategorie
+    prefix_path:          /kategorie
+    column:               id
+    with_wildcard_routes: true
+
+setting:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                setting
+    module:               setting
+    prefix_path:          /setting
+    column:               id
+    with_wildcard_routes: true
+
+stranka:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                stranka
+    module:               stranka
+    prefix_path:          /stranka
+    column:               id
+    with_wildcard_routes: true
+
+setting-clearcache:
+  url:  /setting/clearcache
+  param: { module: setting, action: remove }
+  
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+gallery:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Gallery
+    module:               gallery
+    prefix_path:          /gallery
+    column:               id
+    with_wildcard_routes: true
+
+gallery_sort_images:
+  url:  /gallery/:id/sort-images
+  param: { module: gallery, action: sortImages }
+
+gallery_delete_image:
+  url: /gallery/:id/delete
+  param: { module: gallery, action: deleteImage }
+
+# default rules
+homepage:
+  url:   /
+  param: { module: stranka, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

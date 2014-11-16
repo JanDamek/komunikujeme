@@ -1,0 +1,29 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    language:     cs
+    robots:       index, follow
+
+  stylesheets:    [style.css]
+
+  javascripts:      
+#    - jquery-1.4.4.min.js
+#    - jquery-ui-1.8.10.custom.min.js
+#    - scriptaculous-js-1.9.0/lib/prototype.js
+#    - scriptaculous-js-1.9.0/src/scriptaculous.js?load=effects,builder
+    - jquery-1.7.1.min.js
+    - jquery.dropotron-1.0.js
+    - jquery.slidertron-1.1.js
+#    - site.js
+#    - colorbox/jquery.colorbox.js
+    
+  has_layout:     true
+  layout:         layout

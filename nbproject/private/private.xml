@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/config/doctrine/schema.yml</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/backend/modules/setting/config/generator.yml</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/backend/modules/kategorie/config/generator.yml</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/backend/modules/stranka/config/generator.yml</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/frontend/config/view.yml</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/frontend/templates/layout.php</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/frontend/modules/homepage/templates/_lang.php</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/apps/frontend/modules/homepage/actions/components.class.php</file>
+        <file>file:/Users/jandamek/NetBeansProjects/komunikujeme-test/web/css/style.css</file>
+    </open-files>
+</project-private>

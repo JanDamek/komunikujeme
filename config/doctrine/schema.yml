@@ -1,0 +1,87 @@
+Setting:
+  actAs: 
+    Timestampable:
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    sitename: string(50)
+    hp_stranka_id: integer
+    hp_dolni_id: integer
+    footer_text: string(150)
+    email: string(50)
+    tel: string(50)
+    mobil: string(50)
+    web_adr: string(55)
+    ga_code: string(100)
+    google_overeni: string(255)
+    cs_slogan: string(50)
+    cs_pracovni_doba: clob
+    cs_ulice: string(100)
+    cs_mesto: string(100)
+    en_slogan: string(50)
+    en_pracovni_doba: clob
+    en_ulice: string(100)
+    en_mesto: string(100)
+  relations:
+    Stranka:
+      class: Stranka
+      local: hp_stranka_id
+      foreign: id
+    Dolni:
+      class: Stranka
+      local: hp_dolni_id
+      foreign: id
+    
+Kategorie:    
+  actAs:
+    Timestampable:
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true}
+    kategorie_id: integer
+    cs_title: string(50)
+    cs_description: string(255)
+    cs_keywords: string(255)
+    en_title: string(50)
+    en_description: string(255)
+    en_keywords: string(255)
+  relations:
+    Kategorie:
+      class: Kategorie
+      local: kategorie_id
+      foreign: id  
+    
+Stranka:
+  actAs:
+    Timestampable:  
+    Sluggable:
+      unique: true
+      fields: [name]
+      canUpdate: true
+  columns:
+    id: {type: integer, primary: true, autoincrement: true}
+    name: {type: string(50), unique: true}
+    kategorie_id: integer
+    gallery_id: integer
+    cs_title: string(100)
+    cs_keywords: string(255)
+    cs_description: string(255)
+    cs_perex: clob
+    cs_text: clob
+    en_title: string(100)
+    en_keywords: string(255)
+    en_description: string(255)
+    en_perex: clob
+    en_text: clob
+  relations:
+    Gallery:
+      class: Gallery
+      local: gallery_id
+      foreign: id  
+    Kategorie:
+      class: Kategorie
+      local: kategorie_id
+      foreign: id  
